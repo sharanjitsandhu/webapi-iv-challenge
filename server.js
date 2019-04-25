@@ -27,7 +27,7 @@ server.use("/api/posts", postsRouter);
 
 // route handlers are middlewares
 server.get("/", (req, res) => {
-  res.send("It's working!");
+  res.send("Welcome to my API ✔️");
 });
 
 module.exports = server;
